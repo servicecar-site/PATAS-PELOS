@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agendamento.css">
+    <title>Cadastro</title>
+</head>
+<body>
+<!--Início Cabeçalho-->
+    <header class="header">
+        
+            <img class="header_img" src="logo.png" alt="logo">
+
+        <nav class="nav">
+            
+            <Ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Menu</a></li>
+            </Ul>
+        </nav>
+    </header>
+<!--Fim Cabeçalho-->
+
+<!--Início Main-->
+    <main>
+        
+        <div class="agendamento">
+
+            <form>
+                <label for="Tipo de serviço">Tipo de serviço:</label>
+
+                  <select name="tipo serviço" id="tipo serviço">
+
+                    <option value="Selecionar">Selecionar</option> 
+                    <option value="Banho e tosa">Banho e tosa</option>
+                    <option value="Hotel">Hotel</option> 
+
+                  </select>
+            </form>
+                  
+            <form>
+                <label for="Dia">Dia:</label>
+
+                    <input type="date" id="Dia">
+            </form >
+        
+            <form>
+                <label for="">Horário:</label>
+
+                    <input type="time" id="hora">
+            </form>
+
+            <button><a href="http://127.0.0.1:5500/index.html">Confirmar agendamento</a></button>
+            
+        </div>
+
+    </main>
+<!--Fim Main-->
+</body>
+</html>

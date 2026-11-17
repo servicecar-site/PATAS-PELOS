@@ -44,11 +44,10 @@ html {
 
 /* Início Main */
 main {
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 66px;
 }
 
 .cadastro {
@@ -64,7 +63,7 @@ main {
     border-radius: 30px;
 }
 
-.cadastro form {
+.form {
     background-color: white;
     padding: 10px;
     font-size: 30px;
@@ -72,25 +71,26 @@ main {
     border-radius: 10px;
 }
 
-.cadastro form input {
+.form input {
     height: 25px;
     border-style: none;
 }
 
+.form h3 {
+    margin-top: 10px;
+}
+
 .cadastro button {
-    background-color: rgb(32, 27, 32);
+    background-color: rgb(233, 233, 233);
     padding: 10px;
     margin-top: 20px;
     font-size: 22px;
     border-radius: 10px;
 }
 
-.cadastro button a {
+button a {
+    text-align: center;
     text-decoration: none;
     color: white;
-}
-
-.cadastro h3 {
-    margin-top: 10px;
 }
 /* Fim Main */

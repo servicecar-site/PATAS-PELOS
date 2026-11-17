@@ -1,0 +1,111 @@
+/* Início todo o site */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+/* Fim todo o site */
+
+/* Início body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Fim body */
+
+/* Inínio html */
+html {
+    scroll-behavior: smooth;
+}
+/* Fim html */
+
+/* Início header */
+.header {
+    background-color: rgb(248, 216, 73);
+    display: flex;
+    align-items: center;
+    padding: 6px 70px;
+    border-bottom: 1px solid black;
+}
+
+.header_img {
+    width: 70px;
+    height: 70px;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    list-style: none;
+    font-size: 25px
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Section unidade centro */
+.unidade_centro {
+    background-color: white;
+    display: flex;
+}
+
+.divCentro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding: 90px;
+}
+
+.imageCentro img {
+    padding: 65px;
+
+    height: 560px;
+    width: 700px;
+}
+
+/* Section unidade sul */
+.unidade_sul {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.divSul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding: 90px;
+}
+
+.imageSul img {
+    padding: 45px;
+
+    height: 560px;
+    width: 650px;
+}
+
+/* Início footer */
+.footer {
+    padding: 30px;
+    color: rgb(36, 34, 34);
+    background-color: rgb(248, 216, 73);
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 80px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+/* Fim footer */
